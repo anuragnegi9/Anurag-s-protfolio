@@ -13,7 +13,7 @@ import githubLogo from './assets/tech_logo/github.png'
 import vscodeLogo from './assets/tech_logo/vscode.png'
 import vercelLogo from './assets/tech_logo/vercel.png'
 import passwordGenerator from './assets/work_logo/PasswordGenerator.png'
-import BgChanger from './assets/work_logo/themeChanger.jpg'
+import ImageEnhancer from './assets/work_logo/imageEnhancer.png'
 import CurrencyConverter from './assets/work_logo/currencyConverter.png'
 
 
@@ -85,13 +85,13 @@ export const projects = [
 
   {
     id: 0,
-    title: "Theme Changer",
+    title: "Image Enhancer",
     description:
-      "A React.js-based theme Changer that allow user to change theme.",
-    image: BgChanger,
-    tags: ["React JS", "Auto theme Feature", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Search-App",
-    webapp: "https://imagsearch.netlify.app/",
+      "A React.js-based tool that allows users to upload low-quality images and enhance them using AI. It processes the image on the server and returns a high-resolution, improved version in seconds.",
+    image: ImageEnhancer,
+    tags: ["React JS", "API", "Tailwind", "Javascript"],
+    github: "https://github.com/anuragnegi9/ImageEnhancer",
+    webapp: "https://anurag-image-enhancer.vercel.app/",
   },
 
   {
