@@ -15,6 +15,7 @@ import vercelLogo from './assets/tech_logo/vercel.png'
 import passwordGenerator from './assets/work_logo/PasswordGenerator.png'
 import ImageEnhancer from './assets/work_logo/imageEnhancer.png'
 import CurrencyConverter from './assets/work_logo/currencyConverter.png'
+import movie_app from './assets/work_logo/movie_app.png'
 
 
 // Education Section Logo's
@@ -96,13 +97,13 @@ export const projects = [
 
   {
     id: 1,
-    title: "Password Generator",
+    title: "Movie App",
     description:
-      "A React.js-based password generator website that allows users to create a strong  password and use it to secure you account.",
-    image: passwordGenerator,
-    tags: ["React JS", "Tailwind", "Random Password Feature", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Search-App",
-    webapp: "https://imagsearch.netlify.app/",
+      "React-based app that lets users discover trending movies and search thousands of titles instantly using the TMDB API. With features like live search, loading spinners, and Appwrite-powered analytics, it offers a fast and user-friendly experience for users.",
+    image: movie_app,
+    tags: ["React JS", "Tailwind", "API", "CSS", "Javascript"],
+    github: "https://github.com/anuragnegi9/Movie_App",
+    webapp: "https://movie-app-theta-inky.vercel.app/",
   },
 
   {
