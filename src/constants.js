@@ -16,6 +16,7 @@ import passwordGenerator from './assets/work_logo/PasswordGenerator.png'
 import ImageEnhancer from './assets/work_logo/imageEnhancer.png'
 import CurrencyConverter from './assets/work_logo/currencyConverter.png'
 import movie_app from './assets/work_logo/movie_app.png'
+import cryptoTracker from './assets/work_logo/cryptoTracker.png'
 
 
 // Education Section Logo's
@@ -108,13 +109,13 @@ export const projects = [
 
   {
     id: 3,
-    title: "Currency Converter",
+    title: "Crypto Tracker",
     description:
-      "A React.js-based Website that allow user to see Change rate and convert currency into another currency",
-    image: CurrencyConverter,
-    tags: ["React JS", "API", "Currency Feature", "CSS", "Javascript"],
-    github: "https://github.com/codingmastr/Image-Search-App",
-    webapp: "https://imagsearch.netlify.app/",
+      "A responsive web application built with React.js to track real-time prices of cryptocurrencies. It features a clean UI, live data updates, and seamless user interactions.",
+    image: cryptoTracker,
+    tags: ["React JS", "API", "Live Crypto Update", "CSS", "Javascript"],
+    github: "https://github.com/anuragnegi9/CryptoTracker",
+    webapp: "https://crypto-trackeri.vercel.app/",
   },
 
 ];  
